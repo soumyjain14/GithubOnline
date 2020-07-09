@@ -1,0 +1,21 @@
+class Account(var accNumber:Int, var Name:String, var amount:Int){
+//    var accNumber:Int
+//    var Name:String
+//    var amount:Int
+//    init {
+//        this.accNumber=accNumber
+//        this.Name=Name
+//        this.amount=amount
+//    }
+    fun printfunction(){
+        println("${this.Name}, ${this.accNumber}, ${this.amount}")
+    }
+
+}
+fun main(){
+    var account=Account(12345,"Soumy",5000)
+    account.printfunction()
+    val list= arrayListOf(1,2,3)
+    println(list)
+
+}
